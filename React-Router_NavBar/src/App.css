@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(http://news.fnal.gov/wp-content/uploads/2020/02/2020-02-11_5e42c8469d971_White_background-scaled.jpg);
+  background-size: cover;
+}
+
+.pages {
+  color: #111212;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 10%;
+}
