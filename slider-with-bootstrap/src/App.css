@@ -1,0 +1,13 @@
+
+img{
+height: 900px;
+padding: 10px;
+}
+
+
+@media (max-width:768px){
+  img{
+    height: 300px;
+    padding-top: 20px;
+  }
+}
