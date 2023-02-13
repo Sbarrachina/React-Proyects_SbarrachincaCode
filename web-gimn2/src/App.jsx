@@ -10,10 +10,10 @@ import Plans from './pages/plans/Plans'
 import Trainers from './pages/trainers/Trainers'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
       <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -24,12 +24,10 @@ const App = () => {
       <Route path='plans' element={<Plans/>}/>
       <Route path='trainers' element={<Trainers/>}/>
       <Route path='notFound' element={<NotFound/>}/>
-
-
       </Routes>
+      <Footer/>
       </BrowserRouter>
 
-    </div>
   )
 }
 
