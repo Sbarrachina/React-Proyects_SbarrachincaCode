@@ -57,11 +57,12 @@ const Footer = () => {
                       <Link to= "/s">Support </Link>
                       <Link to= "/Trainers">Trainers </Link>
                     </article>
+                     </div>
 
-                    <div className="footer__copyright">
+
+        <div className="footer__copyright">
                       <small> 2023 Sandra Barrachina Code <AiFillHeart/>  &copy;</small>
                     </div>
-        </div>
     </footer>
   )
 }

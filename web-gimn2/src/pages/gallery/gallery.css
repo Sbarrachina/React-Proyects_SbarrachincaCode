@@ -1,6 +1,6 @@
 .gallery__container{
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 .gallery__container article{
     border: 1rem solid transparent;
