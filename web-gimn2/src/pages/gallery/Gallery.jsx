@@ -9,7 +9,7 @@ const Gallery = () => {
   const images = []
 
   for (let i = 1; i <= galleryLength; i++){
-    images.push(require(`../../images/gallery${i}.jpg}`))
+    images.push(require(`../../images/gallery${i}.jpg`))
   }
   
   
@@ -27,7 +27,7 @@ const Gallery = () => {
         {
           images.map((image, index) => {
             return <article key={index}>
-              <img src={image} alt={`Gallery Image ${index + 1}`} />
+              <img src={image} alt={`Gallery ${index + 1}`} />
             </article>
           })
         }
