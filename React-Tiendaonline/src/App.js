@@ -3,6 +3,8 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
 import Slider from "./components/Slider/Slider";
+import Products from './components/Products/Products';
+import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero/>
       <Slider/>
       <Virtual/>
+      <Products/>
+      <Testimonials/>
     </div>
   );
 }
