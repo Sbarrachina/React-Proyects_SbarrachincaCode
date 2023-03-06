@@ -121,6 +121,80 @@
 }
 
 
+@media screen and (max-width: 640px) {
+.container {
+padding: 0rem 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
+.wrapper {
+position: relative;
+margin-top: 3rem;
+}
 
+.wrapper > img {
+width: 20rem;
+position: relative;
+bottom: 0;
+}
+.blueCircle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.traffic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+.traffic>:first-child{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.customers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+.customers>:first-child{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.h_sides{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.text1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: min-content;
+    display: block;
+    font-weight: 600;  
+    margin-bottom: 1rem;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    color: black;
+    align-items: center;
+}
+.text2>:first-child{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.text2>:nth-child(2){
+    display: block;
+    text-align: center;
+}
 
+}

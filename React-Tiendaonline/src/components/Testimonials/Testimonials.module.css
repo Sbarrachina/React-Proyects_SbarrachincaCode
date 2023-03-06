@@ -82,3 +82,22 @@
 .testimonial>span:nth-of-type(2){
     font-weight: 500;
 }
+@media screen and (max-width:640px) {
+
+    .carousel{
+        width: 100%;
+      
+    }
+    .tCarousel{
+        padding: 2rem;
+        width: 100%;
+    }
+    
+    .testimonial{
+       height: 100%;
+       width: 90%;
+       gap: 2px;
+    }
+
+
+}

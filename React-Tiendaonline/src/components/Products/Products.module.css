@@ -59,3 +59,18 @@
     height: 11rem;
 
 }
+@media screen and (max-width:650px) {
+
+    
+    .menu{
+      
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 18px;
+        margin-top: -30px;
+    }
+    .product{
+        margin-top: 50px;
+    }
+    
+}

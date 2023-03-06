@@ -8,6 +8,11 @@ import {GoThreeBars} from 'react-icons/go'
 const Header = () => {
 const [ShowMenu, setShowMenu] = useState (true)
 
+const toggleMenu = () => {
+  setShowMenu((ShowMenu)=>!ShowMenu)
+
+}
+
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -17,13 +22,12 @@ const [ShowMenu, setShowMenu] = useState (true)
 
       <div className={css.right}>
 
-        <div className={css.bars}>
+        <div className={css.bars} onClick={toggleMenu}>
           <GoThreeBars/>
         </div>
 
 
-        <div className={css.menu}>
-            <ul className={css.menu}>
+            <ul className={css.menu} style={{display: ShowMenu? 'inherit':'none'}}>
                 <li>Collections</li>
                 <li>Brands</li>
                 <li>New</li>
@@ -31,7 +35,6 @@ const [ShowMenu, setShowMenu] = useState (true)
                 <li>ENG</li>
                 </ul> 
 
-        </div>
         <input type="text" className={css.search}  placeholder="Search"/>
 
         <CgShoppingBag className={css.cart}/>

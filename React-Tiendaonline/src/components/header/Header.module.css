@@ -51,6 +51,9 @@
     cursor: pointer;
 }
 
+
+
+
 @media screen and (max-width: 640px){
         .right{
             position: absolute;
@@ -58,5 +61,23 @@
             z-index: 9999;
             background: white;
             color: var(--black);
+            border-radius: 5px;
+            flex-direction: column;
+        }
+        .menu{
+            flex-direction: column;
+            margin-left: -2rem;
+            margin-right: 1rem;
+            display: none;
+        }
+        .menu>li {
+            margin: 0 auto;
+
+        }
+        .bars{
+            display: block;
+        }
+        .search{
+            display: none;
         }
 }
