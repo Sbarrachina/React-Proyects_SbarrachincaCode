@@ -42,4 +42,5 @@ Las contribuciones son bienvenidas. Siéntete libre de abrir un issue o enviar u
 Licencia
 Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
 
+![Captura de pantalla 2023-03-08 a las 13 41 16](https://user-images.githubusercontent.com/92207940/223724057-ac6b45e0-ceb0-41c7-af52-d09dde1f6abc.png)
 
